@@ -12,7 +12,7 @@ public class Pencil {
         this.length = length;
         this.eraserDurability = eraserDurability;
     }
-    public boolean write(){
+    public boolean write(char letter){
         if(pointDurability == 0)
             return false;
 
