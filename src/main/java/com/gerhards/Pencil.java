@@ -12,7 +12,7 @@ public class Pencil {
         this.length = length;
         this.eraserDurability = eraserDurability;
     }
-    public int getDurability(){
+    public int getPointDurability(){
         return this.pointDurability;
     }
     public boolean write(){
