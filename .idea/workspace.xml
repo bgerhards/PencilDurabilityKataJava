@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -866,9 +865,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PencilTest - 2017.06.17 at 18h 18m 09s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 18h 19m 50s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
@@ -885,6 +881,9 @@
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 18h 27m 35s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 18h 31m 06s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest_WriteTwoLettersWithOneDurability - 2017.06.17 at 18h 27m 08s.xml">
@@ -1268,7 +1267,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />

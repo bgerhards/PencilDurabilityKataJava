@@ -55,5 +55,10 @@ public class PencilTest {
         assertEquals(true, superPencil.write());
     }
 
-
+    @Test
+    public void WriteWithPencilAfterSharpenNoDurabilityNoLength(){
+        Pencil superPencil = new Pencil(0, 100, 0, 200);
+        assertEquals(false, superPencil.sharpen());
+        assertEquals(false, superPencil.write());
+    }
 }
