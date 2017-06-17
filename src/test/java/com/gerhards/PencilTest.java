@@ -21,13 +21,13 @@ public class PencilTest {
         Pencil superPencil = new Pencil(0, 100, 20, 200);
         assertEquals(false, superPencil.write('a'));
     }
-//
-//    @Test
-//    public void WriteTwoLettersWithOneDurability(){
-//        Pencil superPencil = new Pencil (1, 100, 20, 200);
-//        assertEquals(true, superPencil.write());
-//        assertEquals(false, superPencil.write());
-//    }
+
+    @Test
+    public void WriteTwoLettersWithOneDurability(){
+        Pencil superPencil = new Pencil (1, 100, 20, 200);
+        assertEquals(true, superPencil.write('a'));
+        assertEquals(false, superPencil.write('a'));
+    }
 //
 //    @Test
 //    public void SharpenPencilLengthRemaining(){
