@@ -26,6 +26,7 @@ public class Pencil {
         if (length == 0)
             return false;
         length--;
+        this.pointDurability = this.maximumPointDurability;
         return true;
     }
 }
