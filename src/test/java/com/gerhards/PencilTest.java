@@ -33,4 +33,10 @@ public class PencilTest {
         assertEquals(false, superPencil.write());
         assertEquals(0, superPencil.getPointDurability());
     }
+
+    @Test
+    public void CheckPencilLength(){
+        Pencil superPencil = new Pencil(100, 100, 20, 200);
+        assertEquals(20, superPencil.getLength());
+    }
 }
