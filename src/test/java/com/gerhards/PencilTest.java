@@ -22,5 +22,9 @@ public class PencilTest {
         assertEquals(95, superPencil.getDurability());
     }
 
-
+    @Test
+    public void WriteOneLetterWithNoDurability(){
+        Pencil superPencil = new Pencil(0, 100, 20, 200);
+        assertEquals(false, superPencil.write());
+    }
 }
