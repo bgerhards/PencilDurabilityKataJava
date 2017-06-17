@@ -45,4 +45,11 @@ public class PencilTest {
         Pencil superPencil = new Pencil(100, 100, 0, 200);
         assertEquals(false, superPencil.sharpen());
     }
+
+    @Test
+    public void SharpenPencilMultipleTimesOneLengthRemaining(){
+        Pencil superPencil = new Pencil(100, 100, 1, 200);
+        assertEquals(true, superPencil.sharpen());
+        assertEquals(false, superPencil.sharpen());
+    }
 }
