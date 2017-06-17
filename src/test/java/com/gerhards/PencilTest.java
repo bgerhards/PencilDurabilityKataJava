@@ -19,6 +19,15 @@ public class PencilTest {
     }
 
     @Test
+    public void WriteTwoLettersWithDurability(){
+        Pencil superPencil = new Pencil (100, 100, 20, 200);
+        assertEquals(true, superPencil.write());
+        assertEquals(99, superPencil.getPointDurability());
+        assertEquals(true, superPencil.write());
+        assertEquals(98, superPencil.getPointDurability());
+    }
+
+    @Test
     public void WriteLetterWithNoDurability(){
         Pencil superPencil = new Pencil(0, 100, 20, 200);
         assertEquals(false, superPencil.write());
