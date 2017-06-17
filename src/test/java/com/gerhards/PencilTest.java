@@ -16,11 +16,11 @@ public class PencilTest {
         assertEquals(true, superPencil.write('a'));
     }
 
-//    @Test
-//    public void WriteLetterWithNoDurability(){
-//        Pencil superPencil = new Pencil(0, 100, 20, 200);
-//        assertEquals(false, superPencil.write());
-//    }
+    @Test
+    public void WriteLetterWithNoDurability(){
+        Pencil superPencil = new Pencil(0, 100, 20, 200);
+        assertEquals(false, superPencil.write('a'));
+    }
 //
 //    @Test
 //    public void WriteTwoLettersWithOneDurability(){
