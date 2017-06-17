@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,13 +38,11 @@
       <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="391">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="e#510#511#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -836,12 +834,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PencilTest - 2017.06.17 at 17h 52m 29s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 17h 55m 24s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 18h 02m 09s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
@@ -858,6 +850,12 @@
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 18h 16m 51s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 18h 18m 09s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 18h 19m 50s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest_WriteFiveLettersWithDurability - 2017.06.17 at 18h 02m 06s.xml">
@@ -984,8 +982,6 @@
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1037,8 +1033,6 @@
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1090,8 +1084,6 @@
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1143,8 +1135,6 @@
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1196,8 +1186,6 @@
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1244,13 +1232,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1258,7 +1244,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

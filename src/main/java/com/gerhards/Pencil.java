@@ -23,6 +23,8 @@ public class Pencil {
         return true;
     }
     public boolean sharpen(){
+        if (length == 0)
+            return false;
         return true;
     }
 }
