@@ -1,4 +1,5 @@
-import com.gerhards.Pencil;
+package com.gerhards;
+
 import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 
@@ -11,7 +12,7 @@ public class PencilTest {
     }
 
     @Test
-    public void CreatePencilWithDurabilityWriteFiveLetters(){
+    public void WriteFiveLettersWithDurability(){
         Pencil superPencil = new Pencil (100, 100, 20, 200);
         assertEquals(true, superPencil.write());
         assertEquals(true, superPencil.write());
