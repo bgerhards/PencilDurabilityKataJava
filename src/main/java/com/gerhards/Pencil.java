@@ -15,14 +15,14 @@ public class Pencil {
     public int getPointDurability(){
         return this.pointDurability;
     }
-    public int getLength(){
-        return 20;
-    }
     public boolean write(){
         if(pointDurability == 0)
             return false;
 
         pointDurability--;
+        return true;
+    }
+    public boolean sharpen(){
         return true;
     }
 }

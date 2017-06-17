@@ -35,8 +35,8 @@ public class PencilTest {
     }
 
     @Test
-    public void CheckPencilLength(){
+    public void SharpenPencilLengthRemaining(){
         Pencil superPencil = new Pencil(100, 100, 20, 200);
-        assertEquals(20, superPencil.getLength());
+        assertEquals(true, superPencil.sharpen());
     }
 }
