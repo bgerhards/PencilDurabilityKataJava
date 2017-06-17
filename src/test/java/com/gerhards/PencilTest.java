@@ -12,22 +12,16 @@ public class PencilTest {
     }
 
     @Test
-    public void WriteFiveLettersWithDurability(){
+    public void WriteLetterWithDurability(){
         Pencil superPencil = new Pencil (100, 100, 20, 200);
         assertEquals(true, superPencil.write());
-        assertEquals(true, superPencil.write());
-        assertEquals(true, superPencil.write());
-        assertEquals(true, superPencil.write());
-        assertEquals(true, superPencil.write());
-        assertEquals(95, superPencil.getPointDurability());
+        assertEquals(99, superPencil.getPointDurability());
     }
 
     @Test
-    public void WriteOneLetterWithNoDurability(){
+    public void WriteLetterWithNoDurability(){
         Pencil superPencil = new Pencil(0, 100, 20, 200);
         assertEquals(false, superPencil.write());
         assertEquals(0, superPencil.getPointDurability());
     }
-
-
 }
