@@ -12,9 +12,6 @@ public class Pencil {
         this.length = length;
         this.eraserDurability = eraserDurability;
     }
-    public int getPointDurability(){
-        return this.pointDurability;
-    }
     public boolean write(){
         if(pointDurability == 0)
             return false;
