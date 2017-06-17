@@ -28,6 +28,12 @@ public class PencilTest {
         assertEquals(true, superPencil.write('a'));
         assertEquals(false, superPencil.write('a'));
     }
+
+    @Test
+    public void WriteOneUpperCaseLetterWithDurability(){
+        Pencil superPencil = new Pencil (1, 100, 20, 200);
+        assertEquals(true, superPencil.write('A'));
+    }
 //
 //    @Test
 //    public void SharpenPencilLengthRemaining(){
