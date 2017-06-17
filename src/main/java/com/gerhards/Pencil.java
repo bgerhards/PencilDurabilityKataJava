@@ -7,8 +7,19 @@ public class Pencil {
     private int eraserDurability;
 
     public Pencil(int pointDurability, int maximumPointDurability, int length, int eraserDurability){
+        this.pointDurability = pointDurability;
+        this.maximumPointDurability = maximumPointDurability;
+        this.length = length;
+        this.eraserDurability = eraserDurability;
     }
     public int getDurability(){
-        return 100;
+        return this.pointDurability;
+    }
+    public boolean write(){
+        if(pointDurability == 0)
+            return false;
+
+        pointDurability--;
+        return true;
     }
 }
