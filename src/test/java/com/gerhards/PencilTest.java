@@ -3,7 +3,6 @@ package com.gerhards;
 import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 
-
 public class PencilTest {
     @Test
     public void CreatePencilWithSomeDurability() {

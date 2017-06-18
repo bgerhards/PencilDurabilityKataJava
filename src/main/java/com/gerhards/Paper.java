@@ -61,7 +61,6 @@ public class Paper {
 
             } else
                 break;
-//            currentTextArray[positionOfEdit + i] = editTextArray[i];
         }
         this.text = String.copyValueOf(currentTextArray);
     }
