@@ -70,7 +70,7 @@ public class PaperTest {
     public void EraseTextOneWord(){
         Paper superPaper = new Paper("Hello");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
-        superPaper.erase("Hello", superPencil);
+        assertEquals(0, superPaper.erase("Hello", superPencil));
         assertEquals("     ", superPaper.text());
     }
 
@@ -78,7 +78,7 @@ public class PaperTest {
     public void EraseTextMultipleWords(){
         Paper superPaper = new Paper("Hello world");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
-        superPaper.erase("world", superPencil);
+        assertEquals(6, superPaper.erase("world", superPencil));
         assertEquals("Hello      ", superPaper.text());
     }
 
@@ -86,7 +86,7 @@ public class PaperTest {
     public void EraseTextMultipleWordsNotEnoughDurability(){
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 2);
-        superPaper.erase("beautiful", superPencil);
+        assertEquals(27, superPaper.erase("beautiful", superPencil));
         assertEquals("Hello world, holder of the beautif   people", superPaper.text());
     }
 
@@ -94,7 +94,7 @@ public class PaperTest {
     public void EraseTextMultipleWordsErasingMultipleWords(){
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
-        superPaper.erase("the beautiful", superPencil);
+        assertEquals(23, superPaper.erase("the beautiful", superPencil));
         assertEquals("Hello world, holder of               people", superPaper.text());
     }
 
@@ -102,7 +102,7 @@ public class PaperTest {
     public void EraseTextMultipleWordsErasingMultipleWordsNotEnoughDurability(){
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 11);
-        superPaper.erase("the beautiful", superPencil);
+        assertEquals(23, superPaper.erase("the beautiful", superPencil));
         assertEquals("Hello world, holder of t             people", superPaper.text());
     }
 }

@@ -26,10 +26,10 @@ public class Paper {
         }
     }
 
-    public void erase(String text, Pencil pencil){
+    public int erase(String text, Pencil pencil){
         int positionOfTextOnPaper = this.text.lastIndexOf(text);
         if (positionOfTextOnPaper < 0)
-            return;
+            return -1;
 
         char[] textCharArray = this.text.toCharArray();
 
@@ -40,6 +40,7 @@ public class Paper {
                 break;
         }
         this.text = String.copyValueOf(textCharArray);
+        return positionOfTextOnPaper;
     }
 
 }
