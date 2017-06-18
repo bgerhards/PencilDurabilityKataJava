@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="73" column="87" lean-forward="true" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+            <state relative-caret-position="283">
+              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,15 +38,13 @@
       <file leaf-file-name="Paper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="290">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +65,8 @@
       <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="341">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -384,8 +383,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
       </list>
     </option>
@@ -562,32 +561,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gerhards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PencilDurabilityKataJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gerhards" />
-      <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
-      <option name="METHOD_NAME" value="WriteWithPencilAfterSharpenNoDurabilityNoLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="PaperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -653,6 +626,32 @@
       <option name="PACKAGE_NAME" value="com.gerhards" />
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
       <option name="METHOD_NAME" value="EraseTextMultipleWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PaperTest.AppendTextNoDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gerhards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PencilDurabilityKataJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gerhards" />
+      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
+      <option name="METHOD_NAME" value="AppendTextNoDurability" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -872,18 +871,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendText" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendText" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNoDurability" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendText" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNoDurability" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendText" />
       </list>
     </recent_temporary>
   </component>
@@ -901,21 +900,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaperTest - 2017.06.17 at 23h 18m 02s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 18m 16s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 18m 28s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 18m 53s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 21m 34s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaperTest - 2017.06.17 at 23h 30m 34s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
@@ -925,8 +909,23 @@
     <history-entry file="PaperTest - 2017.06.17 at 23h 34m 54s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 23h 29m 13s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 23h 46m 48s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 44m 05s.xml">
+      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 45m 08s.xml">
+      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 45m 24s.xml">
+      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 46m 19s.xml">
+      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 46m 38s.xml">
+      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 23h 31m 13s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
@@ -943,9 +942,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.53411514" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.5362473" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.46588486" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.46375266" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -957,7 +956,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.48294243" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.48081023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -995,10 +994,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1307,16 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="993">
@@ -1329,23 +1326,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="290">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="73" column="87" lean-forward="true" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+        <state relative-caret-position="283">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

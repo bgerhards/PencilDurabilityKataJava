@@ -14,7 +14,16 @@ public class Paper {
     }
 
     public void write(String text, Pencil pencil){
-        this.text += text;
+        if(text.trim().length() == 0){
+            return;
+        }
+        char[] textCharArray = text.toCharArray();
+        for(int i = 0; i < textCharArray.length; i ++){
+            if(pencil.write(textCharArray[i]))
+                this.text += textCharArray[i];
+            else
+                this.text += ' ';
+        }
     }
 
     public void erase(String text, Pencil pencil){
