@@ -59,6 +59,14 @@ public class PaperTest {
     }
 
     @Test
+    public void AppendTextNotEnoughDurabilitySpacesAndNewLine(){
+        Paper superPaper = new Paper("Hello");
+        Pencil superPencil = new Pencil(5, 100, 100, 100);
+        superPaper.write(" u s\n        abcde", superPencil);
+        assertEquals("Hello u s\n        abc  ", superPaper.text());
+    }
+
+    @Test
     public void EraseTextOneWord(){
         Paper superPaper = new Paper("Hello");
         Pencil superPencil = new Pencil(100, 100, 100, 100);

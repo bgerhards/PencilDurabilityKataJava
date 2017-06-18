@@ -25,8 +25,8 @@
       <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -534,32 +534,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.PaperTest">
-    <configuration default="false" name="PencilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PencilDurabilityKataJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gerhards" />
-      <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="PaperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -651,6 +625,32 @@
       <option name="PACKAGE_NAME" value="com.gerhards" />
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
       <option name="METHOD_NAME" value="AppendTextNotEnoughDurabilityUpperCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gerhards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PencilDurabilityKataJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gerhards" />
+      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
+      <option name="METHOD_NAME" value="AppendTextNotEnoughDurabilitySpacesAndNewLine" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -869,19 +869,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNoDurability" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityLowerCase" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNoDurability" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityLowerCase" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityLowerCase" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNoDurability" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityLowerCase" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNoDurability" />
       </list>
     </recent_temporary>
   </component>
@@ -899,26 +899,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaperTest - 2017.06.17 at 23h 46m 48s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 49m 36s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaperTest - 2017.06.17 at 23h 49m 49s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 46m 19s.xml">
-      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 23h 50m 44s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_AppendTextNoDurability - 2017.06.17 at 23h 46m 38s.xml">
-      <configuration name="PaperTest.AppendTextNoDurability" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 23h 53m 39s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_AppendTextNotEnoughDurabilityLowerCase - 2017.06.17 at 23h 48m 50s.xml">
-      <configuration name="PaperTest.AppendTextNotEnoughDurabilityLowerCase" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 23h 54m 32s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_AppendTextNotEnoughDurabilityUpperCase - 2017.06.17 at 23h 49m 26s.xml">
-      <configuration name="PaperTest.AppendTextNotEnoughDurabilityUpperCase" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 23h 55m 04s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest - 2017.06.17 at 23h 55m 39s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_AppendTextNotEnoughDurabilitySpacesAndNewLine - 2017.06.17 at 23h 55m 28s.xml">
+      <configuration name="PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PaperTest_AppendTextNotEnoughDurabilityUpperCase - 2017.06.17 at 23h 50m 06s.xml">
       <configuration name="PaperTest.AppendTextNotEnoughDurabilityUpperCase" configurationId="JUnit" />
@@ -943,7 +943,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.5362473" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.46375266" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.46375266" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1094,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,6 +1147,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,6 +1200,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,6 +1253,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,6 +1306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1348,8 +1353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="232">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
