@@ -18,4 +18,10 @@ public class PaperTest {
         assertEquals("Hello world", superPaper.text());
     }
 
+    @Test
+    public void WriteOnPaper(){
+        Paper superPaper = new Paper();
+        superPaper.write("Hello world");
+        assertEquals("Hello world", superPaper.text());
+    }
 }

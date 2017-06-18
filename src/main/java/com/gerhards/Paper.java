@@ -13,4 +13,8 @@ public class Paper {
         return this.text;
     }
 
+    public void write(String text){
+        this.text = text;
+    }
+
 }
