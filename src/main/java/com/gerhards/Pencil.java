@@ -17,21 +17,20 @@ public class Pencil {
     }
 
     public boolean write(char letter){
-
-        if(Pattern.compile("[A-Z]").matcher(Character.toString(letter)).matches()){
-            if (this.pointDurability < 2)
-                return false;
-            this.pointDurability -= 2;
-        }
-
         if(Pattern.compile("\\s").matcher(Character.toString(letter)).matches())
             return true;
 
-        if(pointDurability == 0)
-            return false;
+        return Pattern.compile("[A-Z]").matcher(Character.toString(letter)).matches()?
+                decreaseDurability(2):
+                decreaseDurability(1);
+    }
 
-        pointDurability--;
-        return true;
+    private boolean decreaseDurability(int durabilityCost){
+        if(this.pointDurability < durabilityCost)
+            return false;
+         else
+             this.pointDurability -= durabilityCost;
+             return true;
     }
 
     public boolean sharpen(){
