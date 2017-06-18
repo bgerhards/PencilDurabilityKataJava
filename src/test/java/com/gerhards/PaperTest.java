@@ -57,4 +57,12 @@ public class PaperTest {
         superPaper.erase("beautiful", superPencil);
         assertEquals("Hello world, holder of the beautif   people", superPaper.text());
     }
+
+    @Test
+    public void EraseTextMultipleWordsErasingMultipleWords(){
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        superPaper.erase("the beautiful", superPencil);
+        assertEquals("Hello world, holder of               people", superPaper.text());
+    }
 }
