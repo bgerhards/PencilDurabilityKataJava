@@ -43,6 +43,14 @@ public class PaperTest {
     }
 
     @Test
+    public void AppendTextNotEnoughDurabilityLowerCase(){
+        Paper superPaper = new Paper("Hello ");
+        Pencil superPencil = new Pencil(3, 100, 100, 100);
+        superPaper.write("world", superPencil);
+        assertEquals("Hello wor  ", superPaper.text());
+    }
+
+    @Test
     public void EraseTextOneWord(){
         Paper superPaper = new Paper("Hello");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
