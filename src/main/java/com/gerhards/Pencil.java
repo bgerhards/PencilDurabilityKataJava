@@ -24,6 +24,9 @@ public class Pencil {
             this.pointDurability -= 2;
         }
 
+        if(Pattern.compile("\\s").matcher(Character.toString(letter)).matches())
+            return true;
+
         if(pointDurability == 0)
             return false;
 
