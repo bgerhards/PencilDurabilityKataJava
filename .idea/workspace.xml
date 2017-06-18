@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="152" column="54" lean-forward="true" selection-start-line="152" selection-start-column="54" selection-end-line="152" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -536,7 +534,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferent">
+  <component name="RunManager" selected="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferentNotEnoughDurability">
     <configuration default="false" name="PaperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -551,32 +549,6 @@
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PaperTest.EraseTextMultipleWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gerhards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PencilDurabilityKataJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gerhards" />
-      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
-      <option name="METHOD_NAME" value="EraseTextMultipleWords" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -654,6 +626,32 @@
       <option name="PACKAGE_NAME" value="com.gerhards" />
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
       <option name="METHOD_NAME" value="EditWordLargerOverlappingLettersDifferent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PaperTest.EditWordLargerOverlappingLettersDifferentNotEnoughDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gerhards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PencilDurabilityKataJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gerhards" />
+      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
+      <option name="METHOD_NAME" value="EditWordLargerOverlappingLettersDifferentNotEnoughDurability" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -873,18 +871,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordSameSize" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordNotEnoughDurability" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferent" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordSameSize" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordNotEnoughDurability" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferent" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferentNotEnoughDurability" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferent" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordNotEnoughDurability" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordSameSize" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferentNotEnoughDurability" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordLargerOverlappingLettersDifferent" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordNotEnoughDurability" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordSameSize" />
       </list>
     </recent_temporary>
   </component>
@@ -902,9 +900,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaperTest - 2017.06.18 at 00h 16m 32s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaperTest - 2017.06.18 at 00h 18m 49s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
@@ -925,6 +920,9 @@
     </history-entry>
     <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferent - 2017.06.18 at 00h 27m 14s.xml">
       <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferentNotEnoughDurability - 2017.06.18 at 00h 29m 06s.xml">
+      <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferentNotEnoughDurability" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PaperTest_EditWordNotEnoughDurability - 2017.06.18 at 00h 19m 30s.xml">
       <configuration name="PaperTest.EditWordNotEnoughDurability" configurationId="JUnit" />
@@ -1356,8 +1354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="152" column="54" lean-forward="true" selection-start-line="152" selection-start-column="54" selection-end-line="152" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
