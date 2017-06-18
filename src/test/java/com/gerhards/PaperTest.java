@@ -25,4 +25,12 @@ public class PaperTest {
         superPaper.write("Hello world", superPencil);
         assertEquals("Hello world", superPaper.text());
     }
+
+    @Test
+    public void AppendText(){
+        Paper superPaper = new Paper("Hello ");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        superPaper.write("world", superPencil);
+        assertEquals("Hello world", superPaper.text());
+    }
 }

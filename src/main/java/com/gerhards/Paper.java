@@ -14,7 +14,7 @@ public class Paper {
     }
 
     public void write(String text, Pencil pencil){
-        this.text = text;
+        this.text += text;
     }
 
 }

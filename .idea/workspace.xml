@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
     </list>
@@ -27,8 +26,8 @@
       <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,14 +39,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,8 +357,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
       </list>
     </option>
   </component>
@@ -535,32 +534,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PencilTest.WriteNewLineWithDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gerhards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PencilDurabilityKataJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gerhards" />
-      <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
-      <option name="METHOD_NAME" value="WriteNewLineWithDurability" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="PencilTest.WriteOneNewLineWithNoDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -627,6 +600,32 @@
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PaperTest.AppendText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gerhards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PencilDurabilityKataJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gerhards" />
+      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
+      <option name="METHOD_NAME" value="AppendText" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -845,18 +844,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteNewLineWithDurability" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneNewLineWithNoDurability" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneNewLineWithNoDurability" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendText" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneNewLineWithNoDurability" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteNewLineWithDurability" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendText" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenNoDurabilityNoLength" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneNewLineWithNoDurability" />
       </list>
     </recent_temporary>
   </component>
@@ -892,14 +891,14 @@
     <history-entry file="PaperTest - 2017.06.17 at 22h 47m 52s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 19h 34m 54s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 22h 50m 04s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 19h 35m 40s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 22h 50m 44s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 22h 28m 51s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
+    <history-entry file="PaperTest_AppendText - 2017.06.17 at 22h 50m 38s.xml">
+      <configuration name="PaperTest.AppendText" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 22h 29m 08s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
@@ -1293,22 +1292,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
