@@ -19,9 +19,10 @@ public class PaperTest {
     }
 
     @Test
-    public void WriteOnPaper(){
+    public void WriteText(){
         Paper superPaper = new Paper();
-        superPaper.write("Hello world");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        superPaper.write("Hello world", superPencil);
         assertEquals("Hello world", superPaper.text());
     }
 }

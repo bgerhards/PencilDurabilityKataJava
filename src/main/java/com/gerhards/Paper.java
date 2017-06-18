@@ -13,7 +13,7 @@ public class Paper {
         return this.text;
     }
 
-    public void write(String text){
+    public void write(String text, Pencil pencil){
         this.text = text;
     }
 
