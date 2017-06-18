@@ -42,6 +42,9 @@ public class Pencil {
     }
 
     public boolean erase(){
+        if (this.eraserDurability < 1)
+            return false;
+        this.eraserDurability--;
         return true;
     }
 }

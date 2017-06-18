@@ -112,6 +112,10 @@ public class PencilTest {
 
     }
 
-    
+    @Test
+    public void EraseWithNoDurability(){
+        Pencil superPencil = new Pencil(100, 100, 100, 0);
+        assertEquals(false, superPencil.erase());
+    }
 
 }
