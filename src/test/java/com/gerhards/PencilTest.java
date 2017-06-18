@@ -45,7 +45,7 @@ public class PencilTest {
     public void WriteTwoOneUpperCaseLettersWithThreeeDurability(){
         Pencil superPencil = new Pencil (3, 100, 20, 200);
         assertEquals(true, superPencil.write('A'));
-        assertEquals(false, superPencil.write('A'));
+        assertEquals(false, superPencil.write('A')); 
     }
 //
 //    @Test
