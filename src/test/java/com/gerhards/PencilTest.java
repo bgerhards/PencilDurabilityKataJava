@@ -67,6 +67,12 @@ public class PencilTest {
     }
 
     @Test
+    public void WriteOneNewLineWithNoDurability(){
+        Pencil superPencil = new Pencil (0, 100, 20, 200);
+        assertEquals(true, superPencil.write('\n'));
+    }
+
+    @Test
     public void SharpenPencilLengthRemaining(){
         Pencil superPencil = new Pencil(100, 100, 20, 200);
         assertEquals(true, superPencil.sharpen());
