@@ -41,7 +41,10 @@ public class Pencil {
         return true;
     }
 
-    public boolean erase(){
+    public boolean erase(char letter){
+        if(Pattern.compile("\\s").matcher(Character.toString(letter)).matches())
+            return true;
+
         if (this.eraserDurability < 1)
             return false;
         this.eraserDurability--;

@@ -108,14 +108,20 @@ public class PencilTest {
     @Test
     public void EraseWithDurability(){
         Pencil superPencil = new Pencil(100, 100, 100, 200);
-        assertEquals(true, superPencil.erase());
+        assertEquals(true, superPencil.erase('a'));
 
     }
 
     @Test
     public void EraseWithNoDurability(){
         Pencil superPencil = new Pencil(100, 100, 100, 0);
-        assertEquals(false, superPencil.erase());
+        assertEquals(false, superPencil.erase('A'));
+    }
+
+    @Test
+    public void EraseSpaceWithNoDurability(){
+        Pencil superPencil = new Pencil(100, 100, 100, 0);
+        assertEquals(true, superPencil.erase(' '));
     }
 
 }

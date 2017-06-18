@@ -25,7 +25,7 @@ public class Paper {
         char[] textCharArray = this.text.toCharArray();
 
         for(int i = this.text.lastIndexOf(text) + (text.length() - 1); i >= positionOfTextOnPaper; i--){
-            if(pencil.erase())
+            if(pencil.erase(textCharArray[i]))
                 textCharArray[i] = ' ';
             else
                 break;
