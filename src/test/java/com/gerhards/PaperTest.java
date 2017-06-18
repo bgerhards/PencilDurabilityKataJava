@@ -12,5 +12,10 @@ public class PaperTest {
         assertEquals("", superPaper.text());
     }
 
+    @Test
+    public void CreatePaperWithStartingText(){
+        Paper superPaper = new Paper("Hello world");
+        assertEquals("Hello world", superPaper.text());
+    }
 
 }

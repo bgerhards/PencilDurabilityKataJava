@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,14 +35,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Paper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Paper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -871,11 +874,11 @@
     <history-entry file="PaperTest - 2017.06.17 at 22h 35m 54s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 19h 26m 57s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 22h 39m 55s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 19h 29m 15s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 22h 40m 12s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 19h 32m 27s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
@@ -1284,23 +1287,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>

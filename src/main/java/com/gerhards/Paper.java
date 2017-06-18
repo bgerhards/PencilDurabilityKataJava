@@ -1,9 +1,16 @@
 package com.gerhards;
 
 public class Paper {
+    String text = "";
+
     public Paper(){}
 
-    public String text(){
-        return "";
+    public Paper(String text){
+        this.text = text;
     }
+
+    public String text(){
+        return this.text;
+    }
+
 }
