@@ -105,4 +105,14 @@ public class PaperTest {
         assertEquals(23, superPaper.erase("the beautiful", superPencil));
         assertEquals("Hello world, holder of t             people", superPaper.text());
     }
+
+    @Test
+    public void EditWordSameSize(){
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        int positionOfErasedText = superPaper.erase("holder", superPencil);
+        assertEquals(13, positionOfErasedText);
+        superPaper.edit("keeper", positionOfErasedText, superPencil);
+        assertEquals("Hello world, keeper of the beautiful people", superPaper.text());
+    }
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
     </list>
@@ -27,8 +26,8 @@
       <file leaf-file-name="PaperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="477">
+              <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +38,8 @@
       <file leaf-file-name="Paper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state relative-caret-position="472">
+              <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -87,6 +86,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>erase</find>
+      <find>trim</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -385,8 +385,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
       </list>
     </option>
   </component>
@@ -562,32 +562,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PaperTest.AppendTextNotEnoughDurabilityLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gerhards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PencilDurabilityKataJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gerhards" />
-      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
-      <option name="METHOD_NAME" value="AppendTextNotEnoughDurabilityLowerCase" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="PaperTest.AppendTextNotEnoughDurabilityUpperCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -653,6 +627,32 @@
       <option name="PACKAGE_NAME" value="com.gerhards" />
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
       <option name="METHOD_NAME" value="EraseTextMultipleWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PaperTest.EditWordSameSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gerhards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PencilDurabilityKataJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gerhards" />
+      <option name="MAIN_CLASS_NAME" value="com.gerhards.PaperTest" />
+      <option name="METHOD_NAME" value="EditWordSameSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -872,18 +872,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityLowerCase" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordSameSize" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PaperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityLowerCase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PaperTest.EditWordSameSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PaperTest.EraseTextMultipleWords" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PaperTest.AppendTextNotEnoughDurabilityUpperCase" />
       </list>
     </recent_temporary>
   </component>
@@ -901,18 +901,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaperTest - 2017.06.17 at 23h 50m 44s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 53m 39s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 54m 32s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaperTest - 2017.06.17 at 23h 55m 04s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaperTest - 2017.06.17 at 23h 55m 39s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
@@ -925,11 +913,23 @@
     <history-entry file="PaperTest - 2017.06.18 at 00h 03m 22s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_AppendTextNotEnoughDurabilitySpacesAndNewLine - 2017.06.17 at 23h 55m 28s.xml">
-      <configuration name="PaperTest.AppendTextNotEnoughDurabilitySpacesAndNewLine" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.18 at 00h 13m 59s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_AppendTextNotEnoughDurabilityUpperCase - 2017.06.17 at 23h 50m 39s.xml">
-      <configuration name="PaperTest.AppendTextNotEnoughDurabilityUpperCase" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.18 at 00h 15m 04s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest - 2017.06.18 at 00h 15m 43s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_EditWordSameSize - 2017.06.18 at 00h 08m 18s.xml">
+      <configuration name="PaperTest.EditWordSameSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_EditWordSameSize - 2017.06.18 at 00h 10m 31s.xml">
+      <configuration name="PaperTest.EditWordSameSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaperTest_EditWordSameSize - 2017.06.18 at 00h 14m 42s.xml">
+      <configuration name="PaperTest.EditWordSameSize" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -995,14 +995,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1342,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="472">
+          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
@@ -1355,8 +1347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        <state relative-caret-position="477">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

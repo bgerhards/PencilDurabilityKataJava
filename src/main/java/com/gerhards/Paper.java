@@ -14,7 +14,7 @@ public class Paper {
     }
 
     public void write(String text, Pencil pencil){
-        if(text.trim().length() == 0){
+        if(text.trim().length() < 1){
             return;
         }
         char[] textCharArray = text.toCharArray();
@@ -41,6 +41,18 @@ public class Paper {
         }
         this.text = String.copyValueOf(textCharArray);
         return positionOfTextOnPaper;
+    }
+
+    public void edit(String text, int positionOfEdit, Pencil pencil){
+        if (text.trim().length() < 1)
+            return;
+        char[] currentTextArray = this.text.toCharArray();
+        char[] editTextArray = text.toCharArray();
+
+        for (int i = 0; i < editTextArray.length; i++){
+            currentTextArray[positionOfEdit + i] = editTextArray[i];
+        }
+        this.text = String.copyValueOf(currentTextArray);
     }
 
 }
