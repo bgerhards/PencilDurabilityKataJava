@@ -115,4 +115,16 @@ public class PaperTest {
         superPaper.edit("keeper", positionOfErasedText, superPencil);
         assertEquals("Hello world, keeper of the beautiful people", superPaper.text());
     }
+
+    @Test
+    public void EditWordSmaller(){
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        int positionOfErasedText = superPaper.erase("holder", superPencil);
+        assertEquals(13, positionOfErasedText);
+        superPaper.edit("keep", positionOfErasedText, superPencil);
+        assertEquals("Hello world, keep   of the beautiful people", superPaper.text());
+    }
+
+
 }
