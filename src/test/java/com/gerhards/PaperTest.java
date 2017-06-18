@@ -7,19 +7,19 @@ import static junit.framework.TestCase.assertEquals;
 public class PaperTest {
 
     @Test
-    public void CreatePaperWithNoStartingText(){
+    public void CreatePaperWithNoStartingText() {
         Paper superPaper = new Paper();
         assertEquals("", superPaper.text());
     }
 
     @Test
-    public void CreatePaperWithStartingText(){
+    public void CreatePaperWithStartingText() {
         Paper superPaper = new Paper("Hello world");
         assertEquals("Hello world", superPaper.text());
     }
 
     @Test
-    public void WriteText(){
+    public void WriteText() {
         Paper superPaper = new Paper();
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         superPaper.write("Hello world", superPencil);
@@ -27,7 +27,7 @@ public class PaperTest {
     }
 
     @Test
-    public void AppendText(){
+    public void AppendText() {
         Paper superPaper = new Paper("Hello ");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         superPaper.write("world", superPencil);
@@ -35,7 +35,7 @@ public class PaperTest {
     }
 
     @Test
-    public void AppendTextNoDurability(){
+    public void AppendTextNoDurability() {
         Paper superPaper = new Paper("Hello ");
         Pencil superPencil = new Pencil(0, 100, 100, 100);
         superPaper.write("world", superPencil);
@@ -43,7 +43,7 @@ public class PaperTest {
     }
 
     @Test
-    public void AppendTextNotEnoughDurabilityLowerCase(){
+    public void AppendTextNotEnoughDurabilityLowerCase() {
         Paper superPaper = new Paper("Hello ");
         Pencil superPencil = new Pencil(3, 100, 100, 100);
         superPaper.write("world", superPencil);
@@ -51,7 +51,7 @@ public class PaperTest {
     }
 
     @Test
-    public void AppendTextNotEnoughDurabilityUpperCase(){
+    public void AppendTextNotEnoughDurabilityUpperCase() {
         Paper superPaper = new Paper("Hello ");
         Pencil superPencil = new Pencil(3, 100, 100, 100);
         superPaper.write("World", superPencil);
@@ -59,7 +59,7 @@ public class PaperTest {
     }
 
     @Test
-    public void AppendTextNotEnoughDurabilitySpacesAndNewLine(){
+    public void AppendTextNotEnoughDurabilitySpacesAndNewLine() {
         Paper superPaper = new Paper("Hello");
         Pencil superPencil = new Pencil(5, 100, 100, 100);
         superPaper.write(" u s\n        abcde", superPencil);
@@ -67,7 +67,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EraseTextOneWord(){
+    public void EraseTextOneWord() {
         Paper superPaper = new Paper("Hello");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         assertEquals(0, superPaper.erase("Hello", superPencil));
@@ -75,7 +75,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EraseTextMultipleWords(){
+    public void EraseTextMultipleWords() {
         Paper superPaper = new Paper("Hello world");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         assertEquals(6, superPaper.erase("world", superPencil));
@@ -83,7 +83,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EraseTextMultipleWordsNotEnoughDurability(){
+    public void EraseTextMultipleWordsNotEnoughDurability() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 2);
         assertEquals(27, superPaper.erase("beautiful", superPencil));
@@ -91,7 +91,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EraseTextMultipleWordsErasingMultipleWords(){
+    public void EraseTextMultipleWordsErasingMultipleWords() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         assertEquals(23, superPaper.erase("the beautiful", superPencil));
@@ -99,7 +99,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EraseTextMultipleWordsErasingMultipleWordsNotEnoughDurability(){
+    public void EraseTextMultipleWordsErasingMultipleWordsNotEnoughDurability() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 11);
         assertEquals(23, superPaper.erase("the beautiful", superPencil));
@@ -107,7 +107,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EditWordSameSize(){
+    public void EditWordSameSize() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         int positionOfErasedText = superPaper.erase("holder", superPencil);
@@ -117,7 +117,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EditWordSmaller(){
+    public void EditWordSmaller() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         int positionOfErasedText = superPaper.erase("holder", superPencil);
@@ -127,13 +127,23 @@ public class PaperTest {
     }
 
     @Test
-    public void EditWordNotEnoughDurability(){
+    public void EditWordNotEnoughDurability() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(4, 100, 100, 100);
         int positionOfErasedText = superPaper.erase("holder", superPencil);
         assertEquals(13, positionOfErasedText);
         superPaper.edit("keeper", positionOfErasedText, superPencil);
         assertEquals("Hello world, keep   of the beautiful people", superPaper.text());
+    }
+
+    @Test
+    public void EditWordLargerOverlappingLettersDifferent() {
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        int positionOfErasedText = superPaper.erase("holder", superPencil);
+        assertEquals(13, positionOfErasedText);
+        superPaper.edit("keepings", positionOfErasedText, superPencil);
+        assertEquals("Hello world, keeping@f the beautiful people", superPaper.text());
     }
 
 
