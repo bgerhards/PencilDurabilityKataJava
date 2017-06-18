@@ -126,5 +126,15 @@ public class PaperTest {
         assertEquals("Hello world, keep   of the beautiful people", superPaper.text());
     }
 
+    @Test
+    public void EditWordNotEnoughDurability(){
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people");
+        Pencil superPencil = new Pencil(4, 100, 100, 100);
+        int positionOfErasedText = superPaper.erase("holder", superPencil);
+        assertEquals(13, positionOfErasedText);
+        superPaper.edit("keeper", positionOfErasedText, superPencil);
+        assertEquals("Hello world, keep   of the beautiful people", superPaper.text());
+    }
+
 
 }

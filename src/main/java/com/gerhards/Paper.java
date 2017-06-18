@@ -50,6 +50,10 @@ public class Paper {
         char[] editTextArray = text.toCharArray();
 
         for (int i = 0; i < editTextArray.length; i++){
+            if(pencil.write(editTextArray[i]))
+                currentTextArray[positionOfEdit + i] = editTextArray[i];
+            else
+                break;
             currentTextArray[positionOfEdit + i] = editTextArray[i];
         }
         this.text = String.copyValueOf(currentTextArray);
