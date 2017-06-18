@@ -31,8 +31,21 @@ public class PencilTest {
 
     @Test
     public void WriteOneUpperCaseLetterWithDurability(){
-        Pencil superPencil = new Pencil (1, 100, 20, 200);
+        Pencil superPencil = new Pencil (100, 100, 20, 200);
         assertEquals(true, superPencil.write('A'));
+    }
+
+    @Test
+    public void WriteOneUpperCaseLetterWithOneDurability(){
+        Pencil superPencil = new Pencil (1, 100, 20, 200);
+        assertEquals(false, superPencil.write('A'));
+    }
+
+    @Test
+    public void WriteTwoOneUpperCaseLettersWithThreeeDurability(){
+        Pencil superPencil = new Pencil (3, 100, 20, 200);
+        assertEquals(true, superPencil.write('A'));
+        assertEquals(false, superPencil.write('A'));
     }
 //
 //    @Test
@@ -49,7 +62,7 @@ public class PencilTest {
 //
 //    @Test
 //    public void SharpenPencilMultipleTimesOneLengthRemaining(){
-//        Pencil superPencil = new Pencil(100, 100, 1, 200);
+//        Pencil superPencil = new Pencil(100, 100, 1, 200);wite
 //        assertEquals(true, superPencil.sharpen());
 //        assertEquals(false, superPencil.sharpen());
 //    }
