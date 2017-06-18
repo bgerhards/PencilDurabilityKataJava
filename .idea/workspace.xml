@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d3665b-9fe4-4e1c-a3bb-b1e2bbc6b077" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/test/PencilTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/resourceHashesCache.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/com/gerhards/Pencil.class" afterPath="$PROJECT_DIR$/build/classes/java/main/com/gerhards/Pencil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/PencilDurabilityKataJava-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/PencilDurabilityKataJava-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/com/gerhards/Pencil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/PencilDurabilityKataJava-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/PencilTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-PencilTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +68,8 @@
       <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="528">
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
-              <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+              <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -400,8 +399,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java" />
       </list>
     </option>
   </component>
@@ -916,9 +915,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaperTest - 2017.06.17 at 23h 15m 54s.xml">
-      <configuration name="PaperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaperTest - 2017.06.17 at 23h 17m 31s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
@@ -940,10 +936,13 @@
     <history-entry file="PaperTest - 2017.06.17 at 23h 21m 34s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_EraseTextMultipleWords - 2017.06.17 at 23h 12m 19s.xml">
-      <configuration name="PaperTest.EraseTextMultipleWords" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.17 at 23h 30m 34s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 23h 29m 13s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 23h 31m 13s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1322,16 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1350,7 +1339,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Pencil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1360,7 +1359,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
-          <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+          <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

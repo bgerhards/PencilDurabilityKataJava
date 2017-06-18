@@ -124,4 +124,10 @@ public class PencilTest {
         assertEquals(true, superPencil.erase(' '));
     }
 
+    @Test
+    public void EraseNewLineWithNoDurability(){
+        Pencil superPencil = new Pencil(100, 100, 100, 0);
+        assertEquals(true, superPencil.erase('\n'));
+    }
+
 }
