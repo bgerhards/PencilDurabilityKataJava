@@ -42,42 +42,48 @@ public class PencilTest {
     }
 
     @Test
-    public void WriteTwoOneUpperCaseLettersWithThreeeDurability(){
+    public void WriteTwoOneUpperCaseLettersWithThreeDurability(){
         Pencil superPencil = new Pencil (3, 100, 20, 200);
         assertEquals(true, superPencil.write('A'));
-        assertEquals(false, superPencil.write('A')); 
+        assertEquals(false, superPencil.write('A'));
     }
-//
-//    @Test
-//    public void SharpenPencilLengthRemaining(){
-//        Pencil superPencil = new Pencil(100, 100, 20, 200);
-//        assertEquals(true, superPencil.sharpen());
-//    }
-//
-//    @Test
-//    public void SharpenPencilNoLengthRemaining(){
-//        Pencil superPencil = new Pencil(100, 100, 0, 200);
-//        assertEquals(false, superPencil.sharpen());
-//    }
-//
-//    @Test
-//    public void SharpenPencilMultipleTimesOneLengthRemaining(){
-//        Pencil superPencil = new Pencil(100, 100, 1, 200);wite
-//        assertEquals(true, superPencil.sharpen());
-//        assertEquals(false, superPencil.sharpen());
-//    }
-//
-//    @Test
-//    public void WriteWithPencilAfterSharpenedNoDurability(){
-//        Pencil superPencil = new Pencil(0, 100, 10, 200);
-//        assertEquals(true, superPencil.sharpen());
-//        assertEquals(true, superPencil.write());
-//    }
-//
-//    @Test
-//    public void WriteWithPencilAfterSharpenNoDurabilityNoLength(){
-//        Pencil superPencil = new Pencil(0, 100, 0, 200);
-//        assertEquals(false, superPencil.sharpen());
-//        assertEquals(false, superPencil.write());
-//    }
+
+    @Test
+    public void WriteOneSpaceWithDurability(){
+        Pencil superPencil = new Pencil (3, 100, 20, 200);
+        assertEquals(true, superPencil.write(' '));
+    }
+
+    @Test
+    public void SharpenPencilLengthRemaining(){
+        Pencil superPencil = new Pencil(100, 100, 20, 200);
+        assertEquals(true, superPencil.sharpen());
+    }
+
+    @Test
+    public void SharpenPencilNoLengthRemaining(){
+        Pencil superPencil = new Pencil(100, 100, 0, 200);
+        assertEquals(false, superPencil.sharpen());
+    }
+
+    @Test
+    public void SharpenPencilMultipleTimesOneLengthRemaining(){
+        Pencil superPencil = new Pencil(100, 100, 1, 200);
+        assertEquals(true, superPencil.sharpen());
+        assertEquals(false, superPencil.sharpen());
+    }
+
+    @Test
+    public void WriteWithPencilAfterSharpenedNoDurability(){
+        Pencil superPencil = new Pencil(0, 100, 10, 200);
+        assertEquals(true, superPencil.sharpen());
+        assertEquals(true, superPencil.write('a'));
+    }
+
+    @Test
+    public void WriteWithPencilAfterSharpenNoDurabilityNoLength(){
+        Pencil superPencil = new Pencil(0, 100, 0, 200);
+        assertEquals(false, superPencil.sharpen());
+        assertEquals(false, superPencil.write('a'));
+    }
 }

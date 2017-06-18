@@ -25,8 +25,8 @@
       <file leaf-file-name="PencilTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="443">
+              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -499,7 +499,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PencilTest">
+  <component name="RunManager" selected="JUnit.PencilTest.WriteOneSpaceWithDurability">
     <configuration default="false" name="PencilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -514,32 +514,6 @@
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PencilTest.WriteWithPencilAfterSharpenedNoDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gerhards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PencilDurabilityKataJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gerhards" />
-      <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
-      <option name="METHOD_NAME" value="WriteWithPencilAfterSharpenedNoDurability" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -617,6 +591,32 @@
       <option name="PACKAGE_NAME" value="com.gerhards" />
       <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
       <option name="METHOD_NAME" value="WriteTwoOneUpperCaseLettersWithThreeeDurability" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PencilTest.WriteOneSpaceWithDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gerhards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PencilDurabilityKataJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gerhards" />
+      <option name="MAIN_CLASS_NAME" value="com.gerhards.PencilTest" />
+      <option name="METHOD_NAME" value="WriteOneSpaceWithDurability" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -836,18 +836,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenedNoDurability" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoLettersWithOneDurability" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneUpperCaseLetterWithDurability" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoOneUpperCaseLettersWithThreeeDurability" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoLettersWithOneDurability" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneUpperCaseLetterWithDurability" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoOneUpperCaseLettersWithThreeeDurability" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneSpaceWithDurability" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoOneUpperCaseLettersWithThreeeDurability" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneUpperCaseLetterWithDurability" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoLettersWithOneDurability" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteWithPencilAfterSharpenedNoDurability" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneSpaceWithDurability" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoOneUpperCaseLettersWithThreeeDurability" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteOneUpperCaseLetterWithDurability" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.WriteTwoLettersWithOneDurability" />
       </list>
     </recent_temporary>
   </component>
@@ -865,18 +865,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PencilTest - 2017.06.17 at 18h 41m 22s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 18h 42m 46s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 18h 43m 25s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2017.06.17 at 18h 45m 17s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 18h 58m 21s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
@@ -891,6 +879,18 @@
     </history-entry>
     <history-entry file="PencilTest - 2017.06.17 at 19h 02m 46s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 19h 04m 05s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 19h 04m 48s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest - 2017.06.17 at 19h 04m 58s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_WriteOneSpaceWithDurability - 2017.06.17 at 19h 06m 19s.xml">
+      <configuration name="PencilTest.WriteOneSpaceWithDurability" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest_WriteTwoOneUpperCaseLettersWithThreeeDurability - 2017.06.17 at 19h 02m 40s.xml">
       <configuration name="PencilTest.WriteTwoOneUpperCaseLettersWithThreeeDurability" configurationId="JUnit" />
@@ -909,7 +909,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.5127932" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.48720682" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.48720682" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1270,8 +1270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="443">
+          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
