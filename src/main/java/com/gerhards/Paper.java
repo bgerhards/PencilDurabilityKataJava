@@ -17,4 +17,8 @@ public class Paper {
         this.text += text;
     }
 
+    public void erase(String text, Pencil pencil){
+        this.text = "     ";
+    }
+
 }

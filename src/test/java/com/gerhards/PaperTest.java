@@ -33,4 +33,12 @@ public class PaperTest {
         superPaper.write("world", superPencil);
         assertEquals("Hello world", superPaper.text());
     }
+
+    @Test
+    public void EraseWord(){
+        Paper superPaper = new Paper("Hello");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        superPaper.erase("Hello", superPencil);
+        assertEquals("     ", superPaper.text());
+    }
 }
