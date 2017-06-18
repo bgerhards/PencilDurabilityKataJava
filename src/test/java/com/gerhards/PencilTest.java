@@ -55,6 +55,12 @@ public class PencilTest {
     }
 
     @Test
+    public void WriteNewLineWithDurability(){
+        Pencil superPencil = new Pencil (3, 100, 20, 200);
+        assertEquals(true, superPencil.write('\n'));
+    }
+
+    @Test
     public void WriteOneSpaceWithNoDurability(){
         Pencil superPencil = new Pencil (0, 100, 20, 200);
         assertEquals(true, superPencil.write(' '));
