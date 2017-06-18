@@ -35,10 +35,18 @@ public class PaperTest {
     }
 
     @Test
-    public void EraseWord(){
+    public void EraseTextOneWord(){
         Paper superPaper = new Paper("Hello");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         superPaper.erase("Hello", superPencil);
         assertEquals("     ", superPaper.text());
+    }
+
+    @Test
+    public void EraseTextMultipleWords(){
+        Paper superPaper = new Paper("Hello world");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        superPaper.erase("world", superPencil);
+        assertEquals("Hello      ", superPaper.text());
     }
 }

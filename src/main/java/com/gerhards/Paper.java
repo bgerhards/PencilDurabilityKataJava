@@ -18,7 +18,19 @@ public class Paper {
     }
 
     public void erase(String text, Pencil pencil){
-        this.text = "     ";
+        int positionOfTextOnPaper = this.text.lastIndexOf(text);
+        if (positionOfTextOnPaper < 0)
+            return;
+
+        char[] textCharArray = this.text.toCharArray();
+
+        for(int i = this.text.lastIndexOf(text) + (text.length() - 1); i >= positionOfTextOnPaper; i--){
+            if(pencil.erase())
+                textCharArray[i] = ' ';
+            else
+                break;
+        }
+        this.text = String.copyValueOf(textCharArray);
     }
 
 }
