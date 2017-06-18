@@ -40,4 +40,8 @@ public class Pencil {
         this.pointDurability = this.maximumPointDurability;
         return true;
     }
+
+    public boolean erase(){
+        return true;
+    }
 }

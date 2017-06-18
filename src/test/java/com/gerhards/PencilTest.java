@@ -104,4 +104,14 @@ public class PencilTest {
         assertEquals(false, superPencil.sharpen());
         assertEquals(false, superPencil.write('a'));
     }
+
+    @Test
+    public void EraseWithDurability(){
+        Pencil superPencil = new Pencil(100, 100, 100, 200);
+        assertEquals(true, superPencil.erase());
+
+    }
+
+    
+
 }
