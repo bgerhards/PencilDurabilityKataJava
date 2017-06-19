@@ -176,4 +176,15 @@ public class PaperTest {
         assertEquals("Hello world, holder of the beautiful peoples\nnest", superPaper.text());
     }
 
+
+    @Test
+    public void EditWordLargerNewLineNotEnoughDurability() {
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people\nnest");
+        Pencil superPencil = new Pencil(6, 100, 100, 100);
+        int positionOfErasedText = superPaper.erase("people", superPencil);
+        assertEquals(37, positionOfErasedText);
+        superPaper.edit("peoples", positionOfErasedText, superPencil);
+        assertEquals("Hello world, holder of the beautiful people \nnest", superPaper.text());
+    }
+
 }
