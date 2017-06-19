@@ -23,7 +23,6 @@ public class Paper {
         ArrayList<Character> inputTextParsedToChar = parseText(text);
         for (char inputCharacter: inputTextParsedToChar)
             this.text += pencil.write(inputCharacter) ? inputCharacter : ' ';
-        
     }
 
     public int erase(String text, Pencil pencil) {
@@ -31,15 +30,15 @@ public class Paper {
         if (positionOfTextOnPaper < 0)
             return -1;
 
-        char[] textCharArray = this.text.toCharArray();
+        ArrayList<Character> currentTextParsedToChar = parseText(this.text);
 
-        for (int i = this.text.lastIndexOf(text) + (text.length() - 1); i >= positionOfTextOnPaper; i--) {
-            if (pencil.erase(textCharArray[i]))
-                textCharArray[i] = ' ';
+        for (int i = positionOfTextOnPaper + (text.length() - 1); i >= positionOfTextOnPaper; i--) {
+            if (pencil.erase(currentTextParsedToChar.get(i)))
+                currentTextParsedToChar.set(i, ' ');
             else
                 break;
         }
-        this.text = String.copyValueOf(textCharArray);
+        this.text = joinParsedText(currentTextParsedToChar);
         return positionOfTextOnPaper;
     }
 
@@ -70,5 +69,12 @@ public class Paper {
             newlyParsedText.add(character);
         }
         return newlyParsedText;
+    }
+
+    private String joinParsedText(ArrayList<Character> parsedText){
+        String joinedParsedText = "";
+        for(char character: parsedText)
+            joinedParsedText += character;
+        return joinedParsedText;
     }
 }

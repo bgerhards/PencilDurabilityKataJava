@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="Paper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="40" column="60" lean-forward="true" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -888,17 +888,17 @@
     <history-entry file="PaperTest - 2017.06.19 at 10h 10m 11s.xml">
       <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferent - 2017.06.18 at 00h 23m 04s.xml">
-      <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferent" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.19 at 10h 10m 21s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferent - 2017.06.18 at 00h 23m 50s.xml">
-      <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferent" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.19 at 10h 12m 50s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferent - 2017.06.18 at 00h 26m 38s.xml">
-      <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferent" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.19 at 10h 17m 07s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferent - 2017.06.18 at 00h 27m 14s.xml">
-      <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferent" configurationId="JUnit" />
+    <history-entry file="PaperTest - 2017.06.19 at 10h 23m 36s.xml">
+      <configuration name="PaperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PaperTest_EditWordLargerOverlappingLettersDifferentNotEnoughDurability - 2017.06.18 at 00h 29m 06s.xml">
       <configuration name="PaperTest.EditWordLargerOverlappingLettersDifferentNotEnoughDurability" configurationId="JUnit" />
@@ -924,7 +924,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.510661" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.48933902" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30653805" sideWeight="0.48933902" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1337,15 +1337,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gerhards/PaperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerhards/Paper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="40" column="60" lean-forward="true" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
           <folding />
         </state>
       </provider>
