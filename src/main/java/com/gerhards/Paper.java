@@ -1,5 +1,7 @@
 package com.gerhards;
 
+import java.util.ArrayList;
+
 public class Paper {
     String text = "";
 
@@ -18,10 +20,11 @@ public class Paper {
         if (text.trim().length() < 1) {
             return;
         }
-        char[] textCharArray = text.toCharArray();
-        for (int i = 0; i < textCharArray.length; i++) {
-            if (pencil.write(textCharArray[i]))
-                this.text += textCharArray[i];
+//        char[] textCharArray = text.toCharArray();
+        ArrayList<Character> inputTextParsedToChar = parseText(text);
+        for (int i = 0; i < inputTextParsedToChar.size(); i++) {
+            if (pencil.write(inputTextParsedToChar.get(i)))
+                this.text += inputTextParsedToChar.get(i);
             else
                 this.text += ' ';
         }
@@ -65,4 +68,11 @@ public class Paper {
         this.text = String.copyValueOf(currentTextArray);
     }
 
+    private ArrayList<Character> parseText(String text){
+        ArrayList<Character> newlyParsedText = new ArrayList();
+        for(char character: text.toCharArray()){
+            newlyParsedText.add(character);
+        }
+        return newlyParsedText;
+    }
 }
