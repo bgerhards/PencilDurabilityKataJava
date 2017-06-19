@@ -157,7 +157,7 @@ public class PaperTest {
     }
 
     @Test
-    public void EditWordLargerOverlappingLettersSomeDifferentNotEnoughDurability() {
+    public void EditWordLargerOverlappingLettersSomeDifferent() {
         Paper superPaper = new Paper("Hello world, holder of the beautiful people");
         Pencil superPencil = new Pencil(100, 100, 100, 100);
         int positionOfErasedText = superPaper.erase("holder", superPencil);
@@ -166,5 +166,14 @@ public class PaperTest {
         assertEquals("Hello world, holder o@ the beautiful people", superPaper.text());
     }
 
+    @Test
+    public void EditWordLargerNewLine() {
+        Paper superPaper = new Paper("Hello world, holder of the beautiful people\nnest");
+        Pencil superPencil = new Pencil(100, 100, 100, 100);
+        int positionOfErasedText = superPaper.erase("people", superPencil);
+        assertEquals(37, positionOfErasedText);
+        superPaper.edit("peoples", positionOfErasedText, superPencil);
+        assertEquals("Hello world, holder of the beautiful peoples\nnest", superPaper.text());
+    }
 
 }
