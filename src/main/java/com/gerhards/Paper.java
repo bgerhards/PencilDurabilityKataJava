@@ -17,16 +17,13 @@ public class Paper {
     }
 
     public void write(String text, Pencil pencil) {
-        if (text.trim().length() < 1) {
+        if (text.trim().length() < 1)
             return;
-        }
+
         ArrayList<Character> inputTextParsedToChar = parseText(text);
-        for (int i = 0; i < inputTextParsedToChar.size(); i++) {
-            if (pencil.write(inputTextParsedToChar.get(i)))
-                this.text += inputTextParsedToChar.get(i);
-            else
-                this.text += ' ';
-        }
+        for (char inputCharacter: inputTextParsedToChar)
+            this.text += pencil.write(inputCharacter) ? inputCharacter : ' ';
+        
     }
 
     public int erase(String text, Pencil pencil) {
