@@ -20,7 +20,6 @@ public class Paper {
         if (text.trim().length() < 1) {
             return;
         }
-//        char[] textCharArray = text.toCharArray();
         ArrayList<Character> inputTextParsedToChar = parseText(text);
         for (int i = 0; i < inputTextParsedToChar.size(); i++) {
             if (pencil.write(inputTextParsedToChar.get(i)))
